@@ -1,4 +1,10 @@
 {
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<esc>"]
+      }
+    ],
     "[python]": {
         "editor.bracketPairColorization.enabled": false,
         "editor.guides.bracketPairs": false,
@@ -84,4 +90,7 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Monokai",
 }
